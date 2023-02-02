@@ -1,0 +1,26 @@
+.tecnologie__row{
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   flex-wrap: wrap;
+}
+
+.tecnology__icon{
+    font-size: 6rem;
+    background-color: #94a3b8;
+    padding: 2rem;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 150ms;
+}
+
+.tecnology__icon:hover{
+    font-size: 8rem;
+    padding: 1rem;
+    color: #23FF00;
+    background-color: #5F6976;
+}
+
+#tecnologies__section h1{
+    font-size: 1.75rem;
+}

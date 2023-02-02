@@ -1,0 +1,115 @@
+.home {
+  height: 90vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.background {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+a:hover{
+  cursor: pointer;
+}
+
+.informacoes__basicas {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background-color: transparent;
+}
+
+.informacoes__basicas h1 {
+  font-size: 4rem;
+}
+
+.informacoes__basicas h2 {
+  font-size: 2rem;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.social a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.social a img {
+  height: 25px;
+}
+
+.social a div {
+  align-items: center;
+
+  gap: 10px;
+  display: flex;
+  font-size: 1.3rem;
+}
+
+.animacao {
+  margin: 0 auto;
+
+}
+
+
+
+.social a {
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+}
+
+.social a:hover {
+  cursor: pointer;
+}
+
+.social a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  bottom: -4px;
+  left: 0;
+  background: linear-gradient(90deg, rgb(0, 0, 255) 0%, rgba(0, 255, 4, 1) 100%);
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.social a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.transition__bg {
+  text-align: center;
+  background: rgb(36, 36, 36);
+  background: linear-gradient(0deg, rgba(36, 36, 36, 1) 11%, rgba(36, 36, 36, 0) 100%);
+  align-self: flex-end;
+  height: 7rem;
+  width: 100%;
+  
+}
+
+@media screen and (max-width: 900px){
+  .informacoes__basicas h1 {
+    font-size: 3rem;
+  }
+
+}
