@@ -8,6 +8,7 @@
 .projects__section nav{
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 2.5rem;
 }
 
@@ -70,10 +71,3 @@
     filter: blur(5px);
 }
 
-@media screen and (max-width: 900px){
-    .projects__section nav{
-        flex-direction: column;
-        align-items: center;
-    }
-    
-}

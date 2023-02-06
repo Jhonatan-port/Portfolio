@@ -24,3 +24,17 @@
 #tecnologies__section h1{
     font-size: 1.75rem;
 }
+
+@media screen and (max-width: 765px) {
+    .tecnologie__row{
+        justify-content: initial;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        
+    }
+    .tecnologie__row::-webkit-scrollbar{
+        display: none;
+    }
+    
+  }

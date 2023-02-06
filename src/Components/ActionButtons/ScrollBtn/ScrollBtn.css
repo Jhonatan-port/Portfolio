@@ -1,0 +1,22 @@
+.btn__over{
+    display: none;
+
+  }
+  .btn__over button{
+    font-size: 2rem;
+    display: flex;
+  }
+  
+  @media screen and (max-width: 765px) {
+    .btn__over{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+        
+    }
+
+    .btn__over button:hover{
+        color: #23FF00;
+    }
+    
+  }

@@ -14,13 +14,11 @@
 }
 
 .footer nav a {
-    
+    font-size: 2rem;
     text-decoration: none;
     color: #fff;
-    text-transform: uppercase;
 }
 
 .footer nav a:hover{
     color: #23FF00;
-    text-decoration: underline;
 }

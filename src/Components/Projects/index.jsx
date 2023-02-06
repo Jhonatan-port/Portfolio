@@ -3,14 +3,26 @@ import EasyIMG from '../../assets/ProjectImages/EasyIMG.png'
 import AnalisaTotal from '../../assets/ProjectImages/AnalisaTotal.png'
 import Filmera from '../../assets/ProjectImages/Filmera.png'
 import emDesenvolvimento from '../../assets/ProjectImages/em_desenvolvimento.png'
+import ScrollBtn from '../ActionButtons/ScrollBtn'
 import './Projects.css'
+import { useRef } from "react"
+
 const Projects = () => {
+    const carousel__Projects = useRef(null)
+    const handleLeftClick = (e) => {
+        e.preventDefault()
+        carousel__Projects.current.scrollLeft -= carousel__Projects.current.offsetWidth
+    }
+    const handleRightClick = (e) => {
+        e.preventDefault()
+        carousel__Projects.current.scrollLeft += carousel__Projects.current.offsetWidth
+    }
     return (
         <section className="secondary__section ">
             <div className="projects__section">
                 <h1>Meus Projetos</h1>
                 <p>Clique para saber mais:</p>
-                <nav>
+                <nav ref={carousel__Projects}>
                     <ProjectCard
                         toGithub={'https://github.com/Jhonatan-port/easyIMG'}
                         toDeploy={'https://jhonatan-port.github.io/easyIMG/'}
@@ -39,6 +51,7 @@ const Projects = () => {
                     />
                 </nav>
             </div>
+            <ScrollBtn handle1={handleLeftClick} handle2={handleRightClick}/>
         </section>
     )
 }
