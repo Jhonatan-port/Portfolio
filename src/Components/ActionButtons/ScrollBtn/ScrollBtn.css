@@ -5,6 +5,9 @@
   .btn__over button{
     font-size: 2rem;
     display: flex;
+    padding: 0.7rem;
+    border: none;
+    border-radius: 50px;
   }
   
   @media screen and (max-width: 765px) {
@@ -12,7 +15,6 @@
         display: flex;
         justify-content: center;
         gap: 1rem;
-        
     }
 
     .btn__over button:hover{

@@ -8,21 +8,21 @@ import './Projects.css'
 import { useRef } from "react"
 
 const Projects = () => {
-    const carousel__Projects = useRef(null)
+    const carousel__projects = useRef(null)
     const handleLeftClick = (e) => {
         e.preventDefault()
-        carousel__Projects.current.scrollLeft -= carousel__Projects.current.offsetWidth
+        carousel__projects.current.scrollLeft -= carousel__projects.current.offsetWidth
     }
     const handleRightClick = (e) => {
         e.preventDefault()
-        carousel__Projects.current.scrollLeft += carousel__Projects.current.offsetWidth
+        carousel__projects.current.scrollLeft += carousel__projects.current.offsetWidth
     }
     return (
         <section className="secondary__section ">
             <div className="projects__section">
                 <h1>Meus Projetos</h1>
                 <p>Clique para saber mais:</p>
-                <nav ref={carousel__Projects}>
+                <nav ref={carousel__projects}>
                     <ProjectCard
                         toGithub={'https://github.com/Jhonatan-port/easyIMG'}
                         toDeploy={'https://jhonatan-port.github.io/easyIMG/'}
