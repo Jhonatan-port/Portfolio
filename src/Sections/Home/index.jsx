@@ -2,11 +2,12 @@ import background from './gif2.gif'
 import Git_logo from './Socials/Github.png'
 import Linkedin_logo from './Socials/Linkedin.png'
 import './Home.css'
-function Home() {
-    function gotoAbout(){
-        let About = document.getElementById('about__section')
-        About.scrollIntoView({behavior: 'smooth', block: 'start'});
-    }
+import { gotoAbout } from '../../Hooks/GoTo'
+
+import React from 'react'
+
+const Home = () => {
+
 
     return (
         <section className=''>
@@ -41,6 +42,5 @@ function Home() {
         </section>
     )
 }
-
 
 export default Home

@@ -26,8 +26,8 @@ const Tecnologies = () => {
                 <i className="devicon-tailwindcss-original-wordmark tecnology__icon "></i>
                 <i className="devicon-python-plain-wordmark tecnology__icon"></i>
                 <i className="devicon-javascript-plain tecnology__icon"></i>
-                <i className="devicon-mysql-plain-wordmark tecnology__icon"></i>
                 <i className="devicon-react-original-wordmark tecnology__icon"></i>
+                <i className="devicon-mysql-plain-wordmark tecnology__icon"></i>
             </div>
             <ScrollBtn handle1={handleLeftClick} handle2={handleRightClick}/>
         </section>
