@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import ScrollBtn from '../ActionButtons/ScrollBtn'
+import ScrollBtn from '../../Components/ActionButtons/ScrollBtn'
 import './Tecnologies.css'
 
 const Tecnologies = () => {
@@ -14,7 +14,7 @@ const Tecnologies = () => {
         carousel__Tecnologies.current.scrollLeft += carousel__Tecnologies.current.offsetWidth
     }
     return (
-        <section className="secondary__section" id='tecnologies__section'  >
+        <section className="secondary__section" id='tecnologies__section'>
             <h1>Tecnologias</h1>
             <p>Estas são as tecnologias as
                 quais considero minha

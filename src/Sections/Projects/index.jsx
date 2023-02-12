@@ -3,7 +3,7 @@ import EasyIMG from '../../assets/ProjectImages/EasyIMG.png'
 import AnalisaTotal from '../../assets/ProjectImages/AnalisaTotal.png'
 import Filmera from '../../assets/ProjectImages/Filmera.png'
 import emDesenvolvimento from '../../assets/ProjectImages/em_desenvolvimento.png'
-import ScrollBtn from '../ActionButtons/ScrollBtn'
+import ScrollBtn from '../../Components/ActionButtons/ScrollBtn'
 import './Projects.css'
 import { useRef } from "react"
 

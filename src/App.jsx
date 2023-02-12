@@ -1,10 +1,9 @@
 
-import About from './Components/About'
-import Footer from './Components/Footer'
+import About from './Sections/About'
 import Header from './Components/Header'
-import Home from './Components/Home'
-import Projects from './Components/Projects'
-import Tecnologies from './Components/Tecnologies'
+import Home from './Sections/Home'
+import Projects from './Sections/Projects'
+import Tecnologies from './Sections/Tecnologies'
 
 function App() {
 
@@ -15,7 +14,6 @@ function App() {
       <About/>
       <Tecnologies/>
       <Projects/>
-      <Footer/>
     </div>
   )
 }
