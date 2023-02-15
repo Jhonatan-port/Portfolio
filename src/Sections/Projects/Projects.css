@@ -10,17 +10,24 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 2.5rem;
+
 }
 
 
 .link__card {
     position: relative;
     text-decoration: none;
+    background-color: #1a1a1a;
     color: #fff;
     max-width: 285px;
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
+}
+ 
+.light .link__card{
+    color: #1d1d1d;
+    background-color: #d1d1d1;
 }
 
 .link__card:hover {
@@ -75,6 +82,7 @@
 @media screen and (max-width: 765px) {
     .projects__section{
         width: 100%;
+        padding: 0 0.2rem;
     }
     .projects__section nav{
         justify-content: initial;
@@ -86,5 +94,7 @@
     .projects__section nav::-webkit-scrollbar{
         display: none;
     }
-    
+    .link__card{
+        min-width: 100%;
+    }
   }

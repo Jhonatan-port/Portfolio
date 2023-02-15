@@ -5,10 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: #fff;
 }
 
 .background {
-  position: fixed;
+  position: absolute;
   top: 0;
   right: 0;
   left: 0;
@@ -41,11 +42,7 @@ a:hover{
   gap: 2rem;
 }
 
-.social a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 2rem;
-}
+
 
 .social a img {
   height: 25px;
@@ -64,9 +61,9 @@ a:hover{
 
 }
 
-
-
 .social a {
+  
+  font-size: 2rem;
   position: relative;
   color: #fff;
   text-decoration: none;
@@ -99,12 +96,18 @@ a:hover{
 
 .transition__bg {
   text-align: center;
-  background: rgb(36, 36, 36);
+  background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgba(36, 36, 36, 1) 11%, rgba(36, 36, 36, 0) 100%);
   align-self: flex-end;
   height: 7rem;
   width: 100%;
   
+}
+
+.light .transition__bg{
+  color: #fff;
+  background: rgb(36, 36, 36);
+  background: linear-gradient(0deg, rgb(224, 224, 224) 11%, rgba(146, 146, 146, 0) 100%);
 }
 
 @media screen and (max-width: 900px){

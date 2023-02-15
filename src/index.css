@@ -18,11 +18,13 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-
+  transition: all 0.5s;
 }
 
+
+
+
 .secondary__section {
-  background-color: #242424;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -30,3 +32,12 @@
   gap: 2rem;
 }
 
+.dark{
+  color:#e6e4e5;
+  background-color: #242424;
+}
+
+.light{
+  color: #242424;
+  background-color: #e6e4e5;
+}

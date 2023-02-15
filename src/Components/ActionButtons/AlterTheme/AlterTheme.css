@@ -1,0 +1,16 @@
+.btn{
+    position: fixed;
+    bottom: 1.25rem;
+    left: 1.25rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+    font-size: 2rem;
+    border-radius: 100%;
+    border: none;
+    background-color: #d1d1d1;
+    color: #242424;
+
+}
+.light .btn{
+    color: #d1d1d1;
+    background-color: #242424;
+}
