@@ -5,6 +5,11 @@
 }
 
 :root {
+  --main-bg-dark: #22272e;
+  --main-bg-light: #f6f6f6;
+  --main-font-dark: #e6e4e5;
+  --main-font-light: #383838;
+
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -33,11 +38,11 @@
 }
 
 .dark{
-  color:#e6e4e5;
-  background-color: #242424;
+  color:var(--main-font-dark);
+  background-color: var(--main-bg-dark);
 }
 
 .light{
-  color: #242424;
-  background-color: #e6e4e5;
+  color: var(--main-font-light);
+  background-color: var(--main-bg-light);
 }

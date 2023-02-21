@@ -17,7 +17,7 @@
 .link__card {
     position: relative;
     text-decoration: none;
-    background-color: #1a1a1a;
+    background-color: #2b313a;
     color: #fff;
     max-width: 285px;
     border-width: 2px;
@@ -27,7 +27,7 @@
  
 .light .link__card{
     color: #1d1d1d;
-    background-color: #d1d1d1;
+    background-color: #e6edef;
 }
 
 .link__card:hover {

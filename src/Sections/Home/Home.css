@@ -107,7 +107,7 @@ a:hover{
 .light .transition__bg{
   color: #fff;
   background: rgb(36, 36, 36);
-  background: linear-gradient(0deg, rgb(224, 224, 224) 11%, rgba(146, 146, 146, 0) 100%);
+  background: linear-gradient(0deg, #f6f6f6 11%, rgba(146, 146, 146, 0) 100%);
 }
 
 @media screen and (max-width: 900px){
